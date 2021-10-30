@@ -8,4 +8,14 @@
     <string name="forgot_password">Forgot Password?</string>
     <string name="don_t_have_an_account">Don\'t Have an account?</string>
     <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="type_your_name">Type your name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="type_your_phone_number">Type your phone number</string>
+    <string name="student_tutor">Student/Tutor?</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string-array name="stutu">
+        <item>Student</item>
+        <item>Tutor</item>
+    </string-array>
 </resources>

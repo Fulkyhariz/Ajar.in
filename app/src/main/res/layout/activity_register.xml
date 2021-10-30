@@ -31,23 +31,48 @@
         android:layout_marginStart="35dp"/>
 
     <TextView
-        android:id="@+id/login"
+        android:id="@+id/registertxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/ellipse1"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/lato_bold"
-        android:text="@string/login"
+        android:text="@string/register"
         android:textSize="30sp"
         android:textColor="#848484"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registertxt"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/name"
+        android:textColor="#848484"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/nameinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:drawableStart="@drawable/ic_person"
+        android:hint="@string/type_your_name"
+        android:inputType="text" />
 
     <TextView
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/login"
+        android:layout_below="@id/nameinput"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="30dp"
         android:fontFamily="@font/lato"
         android:text="@string/email_address"
@@ -72,7 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/emailinput"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="30dp"
         android:fontFamily="@font/lato"
         android:text="@string/password"
@@ -92,50 +117,84 @@
         android:inputType="textPassword" />
 
     <TextView
-        android:id="@+id/forgot"
-        android:layout_width="match_parent"
+        android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/passinput"
         android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="30dp"
-        android:fontFamily="@font/lato_bold"
-        android:text="@string/forgot_password"
-        android:textAlignment="textEnd"
-        android:textSize="12sp"
-        android:clickable="true"
-        android:focusable="true" />
+        android:fontFamily="@font/lato"
+        android:text="@string/phone_number"
+        android:textColor="#848484"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/phoneinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phonenumber"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:drawableStart="@drawable/ic_phone"
+        android:hint="@string/type_your_phone_number"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/stuortu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneinput"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/student_tutor"
+        android:textColor="#848484"
+        android:textSize="12sp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stuortuin"
+        android:entries="@array/stutu"
+        android:layout_below="@id/stuortu"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"/>
 
     <ImageButton
-        android:id="@+id/loginbutton"
+        android:id="@+id/registerbutton"
         android:layout_width="275dp"
         android:layout_height="58dp"
-        android:layout_below="@id/forgot"
+        android:layout_below="@id/stuortuin"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:background="@drawable/ic_loginbutton" />
+        android:background="@drawable/ic_registerbutton" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/loginbutton"
+        android:layout_below="@id/registerbutton"
         android:gravity="center"
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/donthave"
+            android:id="@+id/already"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="1dp"
             android:fontFamily="@font/lato"
-            android:text="@string/don_t_have_an_account"
+            android:text="@string/already_have_an_account"
             android:textSize="12sp"/>
 
         <TextView
-            android:id="@+id/registerbtn"
+            android:id="@+id/loginbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/lato_bold"
-            android:text="@string/register"
+            android:text="@string/login"
             android:clickable="true"
             android:focusable="true"
             android:textSize="12sp"/>
