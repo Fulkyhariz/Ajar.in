@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "603623503030",
+    "firebase_url": "https://ajarin-85725-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ajarin-85725",
+    "storage_bucket": "ajarin-85725.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603623503030:android:b8450802195bac58122217",
+        "android_client_info": {
+          "package_name": "com.ajarin.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603623503030-07kbampj9b9em7nev5t1no6cge6gtju2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEftwOFnAqPyq539-SbnqFk8EStEJ9kks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603623503030-07kbampj9b9em7nev5t1no6cge6gtju2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
