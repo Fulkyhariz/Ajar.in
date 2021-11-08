@@ -10,4 +10,6 @@
     <color name="whiteBG">#F2F2F2</color>
     <color name="biru">#A1E3EA</color>
     <color name="biru2">#65CDD8</color>
+    <color name="ijoFont">#2E8C96</color>
+    <color name="abuFont">#848484</color>
 </resources>

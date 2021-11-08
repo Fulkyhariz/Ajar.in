@@ -3,6 +3,7 @@ package com.ajarin.android
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.TextView
 
 class Register : AppCompatActivity() {
@@ -11,6 +12,7 @@ class Register : AppCompatActivity() {
         setContentView(R.layout.activity_register)
 
         val loginbtn : TextView = findViewById(R.id.loginbtn)
+        val registerButton : ImageView
 
         loginbtn.setOnClickListener{
             Intent( this@Register, Login::class.java).also{

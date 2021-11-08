@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="311dp"
+    android:height="225dp"
+    android:viewportWidth="311"
+    android:viewportHeight="225">
+    <group>
+        <path
+            android:fillAlpha="0.8"
+            android:strokeColor="#579CA4"
+            android:strokeAlpha="0.8"
+            android:strokeWidth="2"
+            android:pathData="M5 25c0-13.25 10.75-24 24-24h253c13.25 0 24 10.75 24 24v167c0 13.25-10.75 24-24 24h-253c-13.25 0-24-10.75-24-24z"/>
+    </group>
+    <path
+        android:fillColor="#76ADB4"
+        android:pathData="M4 183h303v10c0 13.8-11.2 25-25 25H29c-13.8 0-25-11.2-25-25v-10z"/>
+</vector>

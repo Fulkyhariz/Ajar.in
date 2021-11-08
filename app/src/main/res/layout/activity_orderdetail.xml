@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteBG"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/bgHeader"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/hd_white" />
+
+    <TextView
+        android:id="@+id/orderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bgHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-56dp"
+        android:fontFamily="@font/lato_bold"
+        android:textColor="@color/ijoFont"
+        android:text="@string/orderDetail"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:id="@+id/orderDetailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bgHeader"
+        android:background="@drawable/box_orderdetail">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/mataKuliah"
+            android:textColor="@color/ijoFont"
+            android:textAlignment="center"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/feedbackButton"
+        android:layout_width="311dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_feedback"
+        android:layout_below="@id/orderDetailText"
+        android:layout_marginTop="35dp"
+        />
+    <ImageButton
+        android:id="@+id/reportButton"
+        android:layout_width="311dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_report"
+        android:layout_below="@id/feedbackButton"
+        android:layout_marginTop="25dp"
+        />
+
+</RelativeLayout>
