@@ -19,9 +19,6 @@ class Login : AppCompatActivity() {
                 startActivity(it)
             }
         }
-        /*loginbtn.setOnClickListener(
-
-        )*/
 
         /* test lagi */
         /*test coba pull merge fetch*/
