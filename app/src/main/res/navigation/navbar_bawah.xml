@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navbar_bawah"
+    app:startDestination="@id/history">
+
+    <fragment
+        android:id="@+id/history"
+        android:name="com.ajarin.android.History"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.ajarin.android.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.ajarin.android.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
