@@ -10,11 +10,19 @@
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/drawable/ic_person.xml" value="0.14427083333333332" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/drawable/ic_phone.xml" value="0.14427083333333332" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/drawable/ic_registerbutton.xml" value="0.14427083333333332" />
+        <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/drawable/ic_settings.xml" value="0.134375" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/drawable/logo2.xml" value="0.1125" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_order_detail.xml" value="0.10416666666666667" />
+        <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_orderdetail.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_privacy_policy.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_splashscreen.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_terms_condition.xml" value="0.18" />
+        <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/fragment_history.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/fragment_profile.xml" value="0.14" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/menu/listregister.xml" value="0.128125" />
         <entry key="..\:/Users/fulky/Documents/Akademik/5th Term/RPL/proyek/Source Code/Ajarin/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/drawable/background.xml" value="0.1734375" />

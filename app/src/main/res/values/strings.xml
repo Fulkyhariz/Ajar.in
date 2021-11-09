@@ -47,4 +47,6 @@
     <string name="account">Account</string>
     <string name="pandP">Privacy Policy</string>
     <string name="termCond">Term and Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_condition"><![CDATA[Terms & Condition]]></string>
 </resources>
