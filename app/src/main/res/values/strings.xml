@@ -19,10 +19,26 @@
     <string name="home_frag">Home</string>
     <string name="history_frag">History</string>
     <string name="profile_frag">Profile</string>
+    <string name="home">Topics</string>
+    <string name="law">Law</string>
+    <string name="business">Business</string>
+    <string name="medical">Medical</string>
+    <string name="eng">Engineering</string>
+    <string name="itdev">IT Development</string>
+    <string name="humanities">Humanities</string>
     <string-array name="stutu">
         <item>Student</item>
         <item>Tutor</item>
     </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_orderID">Order ID</string>
+    <string name="string_ordStat">Order Status</string>
+    <string name="string_ordDate">Order Date</string>
+    <string name="subject">Subject</string>
+    <string name="string_subName">Subject Name</string>
+    <string name="tutorName">Tutor Name</string>
+    <string name="string_tutorName">Tutor Name</string>
+    <string name="total">Total</string>
+    <string name="string_totalPrice">Total Price</string>
 </resources>

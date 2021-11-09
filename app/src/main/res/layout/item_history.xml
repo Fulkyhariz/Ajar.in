@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="25dp"
+    card_view:cardElevation="5dp"
+    card_view:strokeColor="@color/biru2"
+    card_view:strokeWidth="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="196dp">
+
+        <View
+            android:id="@+id/lineBlack"
+            android:layout_width="372dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/tv_orderStat"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="12dp"
+            android:background="@color/black" />
+
+        <ImageView
+            android:id="@+id/totalPrice"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/total_history" />
+
+        <TextView
+            android:id="@+id/tv_orderID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/string_orderID"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_orderDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="22dp"
+            android:fontFamily="@font/lato"
+            android:text="@string/string_ordDate"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_orderStat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_orderID"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="22dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/string_ordStat"
+            android:textColor="@color/biru2"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/subjectText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lineBlack"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/lato"
+            android:text="@string/subject"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_subjectName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lineBlack"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="22dp"
+            android:fontFamily="@font/lato"
+            android:text="@string/string_subName"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subjectText"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato"
+            android:text="@string/tutorName"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_tutorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_subjectName"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="22dp"
+            android:fontFamily="@font/lato"
+            android:text="@string/string_tutorName"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/priceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/totalPrice"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/total"
+            android:textColor="@color/whiteBG"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_priceHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/totalPrice"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="22dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/string_totalPrice"
+            android:textColor="@color/whiteBG"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
