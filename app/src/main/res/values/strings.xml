@@ -41,4 +41,10 @@
     <string name="string_tutorName">Tutor Name</string>
     <string name="total">Total</string>
     <string name="string_totalPrice">Total Price</string>
+    <string name="userName">User Name</string>
+    <string name="userPhone">User Phone Num</string>
+    <string name="userEmail">userEmail@gmail.com</string>
+    <string name="account">Account</string>
+    <string name="pandP">Privacy Policy</string>
+    <string name="termCond">Term and Conditions</string>
 </resources>
