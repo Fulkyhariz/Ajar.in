@@ -52,8 +52,9 @@ class Register : AppCompatActivity() {
                         val currentUser = auth.currentUser
                         val currentUSerDb = databaseReference?.child((currentUser?.uid!!))
                         currentUSerDb?.child("nama")?.setValue(nameInput.text.toString())
+                        currentUSerDb?.child("email")?.setValue(emailInput.text.toString())
                         currentUSerDb?.child("phone")?.setValue(phoneInput.text.toString())
-                        currentUSerDb?.child("tutor")?.setValue(tutorInput.selectedItem.toString())
+                        currentUSerDb?.child("role")?.setValue(tutorInput.selectedItem.toString())
 
                         Toast.makeText(this@Register, "Registration Success. ", Toast.LENGTH_LONG).show()
                         finish()

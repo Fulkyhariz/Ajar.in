@@ -15,50 +15,61 @@ import kotlinx.android.synthetic.main.fragment_profile.*
 class Profile : Fragment() {
 
     lateinit var auth: FirebaseAuth
-    var databaseReference :  DatabaseReference? = null
-    var database: FirebaseDatabase? = null
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-        auth = FirebaseAuth.getInstance()
-        database = FirebaseDatabase.getInstance()
-        databaseReference = database?.reference!!.child("profile")
-
-        loadProfile()
-    }
+    private var mAuth: FirebaseAuth? = FirebaseAuth.getInstance()
+    var database: FirebaseDatabase? = FirebaseDatabase.getInstance()
+    var databaseReference :  DatabaseReference? = database?.reference
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_profile, container, false)
+        val myView: View = inflater.inflate(R.layout.fragment_profile, container, false)
+        /*
+        val privacyPolicybtn = myView.findViewById<TextView>(R.id.privacyPolicy)
+        val termsofServicebtn = myView.findViewById<TextView>(R.id.termConditions)
+        val logOutbtn = myView.findViewById<Button>(R.id.logoutbutton)*/
+
+        auth = FirebaseAuth.getInstance()
+        loadProfile()
+        /*
+        logOutbtn.setOnClickListener{
+            auth.signOut()
+            requireActivity().run {
+                val intent = Intent(this, Login::class.java)
+                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                startActivity(intent)
+            }
+        }
+
+        privacyPolicybtn.setOnClickListener{
+            requireActivity().run{
+                startActivity(Intent(this, PrivacyPolicy::class.java))
+            }
+        }
+
+        termsofServicebtn.setOnClickListener{
+            requireActivity().run{
+                startActivity(Intent(getActivity(), TermsCondition::class.java))
+            }
+        }*/
+        return myView
     }
 
     private fun loadProfile() {
 
-        val user = auth.currentUser
-        val userreference = databaseReference?.child(user?.uid!!)
+        mAuth = FirebaseAuth.getInstance()
+        val currentUser = mAuth!!.currentUser
+        databaseReference?.child("profile")?.child(currentUser!!.uid)
+            ?.addListenerForSingleValueEvent(object: ValueEventListener {
+                override fun onCancelled(error: DatabaseError) {
+                }
 
-        user_email.text = user?.email
-
-        userreference?.addValueEventListener(object: ValueEventListener{
-            override fun onDataChange(snapshot: DataSnapshot) {
-
-                user_name.text = snapshot.child("nama").value.toString()
-                user_phone.text = snapshot.child("phone").value.toString()
-            }
-
-            override fun onCancelled(error: DatabaseError) {
-                TODO("Not yet implemented")
-            }
-        })
-
-
-/*        logoutbutton.setOnClickListener {
-            auth.signOut()
-            startActivity(Intent(this@Profile, Login::class.java))
-            finish()
-        }*/
+                override fun onDataChange(snapshot: DataSnapshot) {
+                    var map = snapshot.value as Map<String,Any>
+                    user_name.text = map["nama"].toString()
+                    user_phone.text = map["phone"].toString()
+                    user_email.text = map["email"].toString()
+                }
+            })
     }
 }
