@@ -45,13 +45,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/topic_titles"
+        android:id="@+id/tutorList_title"
         android:layout_width="wrap_content"
         android:layout_height="34dp"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/lato_bold"
         android:gravity="center"
-        android:text="@string/string_subName"
+        android:text="@string/tutor_list"
         android:textColor="@color/ijoFont"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,14 +61,14 @@
         tools:ignore="MissingConstraints" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_subjectList"
+        android:id="@+id/rv_tutorList"
         android:layout_width="387dp"
         android:layout_height="601dp"
         android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/topic_titles"
-        tools:listitem="@layout/item_topics" />
+        app:layout_constraintTop_toBottomOf="@+id/tutorList_title"
+        tools:listitem="@layout/item_tutorlist" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

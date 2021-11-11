@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/biru"
+    tools:context=".Topics">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="63dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_baseline_menu_book_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tutProf_title"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="center"
+        android:text="@string/tutor_profile"
+        android:textColor="@color/ijoFont"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="370dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/biru2"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="164dp">
+
+
+            <TextView
+                android:id="@+id/prof_subjectName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="@string/string_subName"
+                android:textColor="@color/whiteBG"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toStartOf="@+id/prof_subjectName"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_book_white" />
+
+            <TextView
+                android:id="@+id/prof_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="@string/string_totalPrice"
+                android:textColor="@color/whiteBG"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+            <TextView
+                android:id="@+id/txt_session"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="@string/per_session"
+                android:textColor="@color/whiteBG"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+            <View
+                android:id="@+id/lineBlack"
+                android:layout_width="323dp"
+                android:layout_height="2dp"
+                android:layout_below="@+id/txt_session"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="16dp"
+                android:background="@color/whiteBG"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_session" />
+
+            <TextView
+                android:id="@+id/prof_rate"
+                android:layout_width="13dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/lato_bold"
+                android:gravity="center"
+                android:text="@string/rating_tutor"
+                android:textColor="@color/whiteBG"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lineBlack" />
+
+            <TextView
+                android:id="@+id/txt_review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="@string/review"
+                android:textColor="@color/whiteBG"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+            <TextView
+                android:id="@+id/txt_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="94dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="@string/contact"
+                android:textColor="@color/whiteBG"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toEndOf="@+id/prof_rate"
+                app:layout_constraintTop_toBottomOf="@+id/lineBlack"
+                app:srcCompat="@drawable/ic_star_white" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="100dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lineBlack"
+                app:srcCompat="@drawable/ic_contact" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/test_profile"
+        app:civ_border_color="#fff"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tutProf_title"/>
+
+    <TextView
+        android:id="@+id/prof_tutorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="center"
+        android:text="@string/prof_tutorName"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/tutProf_title"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/prof_tutorEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/lato"
+        android:gravity="center"
+        android:text="@string/prof_tutorEmail"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/prof_tutorName"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/prof_tutorDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/lato"
+        android:gravity="center"
+        android:text="@string/prof_tutorDesc"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toEndOf="@+id/profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/prof_tutorEmail"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:srcCompat="@drawable/map_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

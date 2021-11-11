@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ajarin">
         <activity
+            android:name=".TutorProfile"
+            android:exported="false" />
+        <activity
+            android:name=".TutorList"
+            android:exported="false" />
+        <activity
+            android:name=".TutoList"
+            android:exported="false" />
+        <activity
             android:name=".Topics"
             android:exported="false" />
         <activity

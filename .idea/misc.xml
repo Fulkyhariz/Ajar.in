@@ -37,6 +37,7 @@
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/drawable/ic_profile.xml" value="0.2703125" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/drawable/ic_terms.xml" value="0.1734375" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/drawable/item_selector.xml" value="0.11203703703703703" />
+        <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/drawable/map_button.xml" value="0.4" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/drawable/round_corner.xml" value="0.176" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/drawable/topic_title.xml" value="0.1388888888888889" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/drawable/total_history.xml" value="0.15625" />
@@ -52,11 +53,15 @@
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/layout/activity_splashscreen.xml" value="0.1265625" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/layout/activity_terms_condition.xml" value="0.14010416666666667" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/layout/activity_topics.xml" value="0.264" />
+        <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/layout/activity_tuto_list.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/layout/activity_tutor_list.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/layout/activity_tutor_profile.xml" value="0.264" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/layout/fragment_history.xml" value="0.176" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/layout/fragment_home.xml" value="0.4119448698315467" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/layout/item_history.xml" value="0.2" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/layout/item_topics.xml" value="0.4" />
+        <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/layout/item_tutorlist.xml" value="0.536" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/menu/bottom_menu.xml" value="0.1" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/menu/item_menu.xml" value="0.1" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1390625" />

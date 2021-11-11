@@ -63,6 +63,15 @@
         Mempelajari teknik-teknik keamanan dalam jaringan komputer, menganalisis
 dan mengimplementasikan aspek keamanan pada jaringan komputer, menganalisa keamanan dan integritas data serta melakukan proteksi.
     </string>
+    <string name="rating_tutor">5</string>
+    <string name="tutor_list">Tutor List</string>
+    <string name="tutor_profile">Tutor Profile</string>
+    <string name="prof_tutorName">Tutor Name</string>
+    <string name="prof_tutorEmail">tutor.email@gmail.com</string>
+    <string name="prof_tutorDesc">Becoming Tutor Since 2021</string>
+    <string name="per_session">/ Session</string>
+    <string name="review">Reviews</string>
+    <string name="contact">Contact</string>
 
 
 </resources>
