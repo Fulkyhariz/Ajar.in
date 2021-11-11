@@ -49,4 +49,20 @@
     <string name="termCond">Term and Conditions</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="terms_condition"><![CDATA[Terms & Condition]]></string>
+    <string name="string_pandp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultrices ullamcorper suscipit. Ut lorem sapien, blandit non ultricies nec, eleifend sit amet nunc. Quisque congue sagittis nisi eu egestas. Cras lobortis tincidunt dui at semper. Duis aliquam augue id pretium ultricies. Fusce condimentum justo ac consequat blandit. Sed hendrerit, dui consectetur porttitor porta, turpis dolor semper purus, non maximus lorem justo sed lectus. Proin congue mi quis sodales dapibus. Mauris tincidunt, odio a molestie viverra, purus sem imperdiet orci, eget mollis dui orci nec dui. Cras efficitur enim non libero feugiat accumsan. Nulla nec quam et metus luctus rutrum. Mauris non purus ut mauris suscipit accumsan. Aenean at bibendum lectus.
+
+        Aenean ullamcorper consectetur ultrices. Mauris mollis commodo est, ut pharetra mauris mattis sit amet. Sed fermentum est nec semper suscipit. Suspendisse rhoncus, felis ac elementum posuere, lacus justo tincidunt libero, in rhoncus nisl felis et nulla. Vivamus quis nunc urna. Nulla id tortor nibh. Nunc ullamcorper ullamcorper aliquet.
+
+        Nunc ornare, dolor lacinia euismod iaculis, lorem libero aliquet dui, vitae pulvinar ante risus in turpis. Fusce euismod efficitur vulputate. Cras aliquam magna lacinia eros pharetra, vitae tempus tellus hendrerit. Mauris nec nisi ut sapien tempor gravida in sed purus. Suspendisse ultricies eu massa vitae convallis. Aliquam vulputate arcu non leo venenatis, nec elementum orci tincidunt. Vestibulum viverra ultricies semper. Maecenas fermentum sodales lacus in congue. Etiam mollis rutrum sollicitudin. Nullam egestas tincidunt lectus, vel rutrum nisl dignissim id. Mauris et posuere lectus. Phasellus luctus venenatis sollicitudin. Curabitur ut dignissim enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer tortor nisi, cursus et erat ut, finibus fringilla erat. Phasellus vehicula elementum dolor, vel sagittis nisl faucibus vitae.
+
+        Praesent pharetra vehicula purus. Phasellus rhoncus diam quis turpis gravida fringilla. Nulla nec finibus quam, eget dictum ligula. Ut hendrerit molestie tortor, non tincidunt dui efficitur eu. Vestibulum ultricies, tellus sed vehicula tincidunt, libero lectus consectetur ipsum, in tempor enim felis iaculis nisl. Sed sed ipsum egestas, blandit ipsum eu, iaculis urna. Praesent vitae felis tellus. Donec molestie eros ac risus molestie, sit amet accumsan tellus egestas. Quisque sit amet auctor arcu, vel commodo leo. Suspendisse potenti. Integer vel arcu eu eros aliquam cursus. Nulla facilisis hendrerit placerat. Phasellus sit amet mi et metus tincidunt elementum.
+
+        Praesent pharetra vehicula purus. Phasellus rhoncus diam quis turpis gravida fringilla. Nulla nec finibus quam, eget dictum ligula. Ut hendrerit molestie tortor, non tincidunt dui efficitur eu. Vestibulum ultricies, tellus sed vehicula tincidunt, libero lectus consectetur ipsum, in tempor enim felis iaculis nisl. Sed sed ipsum egestas, blandit ipsum eu, iaculis urna. Praesent vitae felis tellus. Donec molestie eros ac risus molestie, sit amet accumsan tellus egestas. Quisque sit amet auctor arcu, vel commodo leo. Suspendisse potenti. Integer vel arcu eu eros aliquam cursus. Nulla facilisis hendrerit placerat. Phasellus sit amet mi et metus tincidunt elementum.
+    </string>
+    <string name="subj_desc">
+        Mempelajari teknik-teknik keamanan dalam jaringan komputer, menganalisis
+dan mengimplementasikan aspek keamanan pada jaringan komputer, menganalisa keamanan dan integritas data serta melakukan proteksi.
+    </string>
+
+
 </resources>

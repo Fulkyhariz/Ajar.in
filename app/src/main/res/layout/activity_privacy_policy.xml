@@ -61,5 +61,30 @@
         app:layout_constraintTop_toTopOf="@+id/imageView6"
         tools:ignore="MissingConstraints" />
 
-  </androidx.constraintlayout.widget.ConstraintLayout
+    <ScrollView
+        android:layout_width="367dp"
+        android:layout_height="611dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/privpol_text">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_privacyPolicy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/lato"
+                android:justificationMode="inter_word"
+                android:text="@string/string_pandp"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout
    >

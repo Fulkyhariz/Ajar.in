@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ajarin">
         <activity
+            android:name=".Topics"
+            android:exported="false" />
+        <activity
+            android:name=".topics"
+            android:exported="false" />
+        <activity
             android:name=".OrderDetail"
             android:exported="true" />
         <activity

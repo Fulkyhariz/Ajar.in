@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/biru"
-    tools:context=".TermsCondition">
+    tools:context=".Topics">
 
     <ImageView
         android:id="@+id/imageView6"
@@ -40,18 +40,18 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:src="@drawable/ic_settings"
+        android:src="@drawable/ic_baseline_menu_book_24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/termscon_text"
+        android:id="@+id/topic_titles"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="34dp"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/lato_bold"
         android:gravity="center"
-        android:text="@string/terms_condition"
+        android:text="@string/string_subName"
         android:textColor="@color/ijoFont"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,29 +60,15 @@
         app:layout_constraintTop_toTopOf="@+id/imageView6"
         tools:ignore="MissingConstraints" />
 
-    <ScrollView
-        android:layout_width="367dp"
-        android:layout_height="611dp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_history"
+        android:layout_width="387dp"
+        android:layout_height="601dp"
         android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/termscon_text">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/text_privacyPolicy"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:fontFamily="@font/lato"
-                android:justificationMode="inter_word"
-                android:text="@string/string_pandp"
-                android:textColor="@color/black"
-                android:textSize="12sp" />
-        </LinearLayout>
-    </ScrollView>
+        app:layout_constraintTop_toBottomOf="@+id/topic_titles"
+        tools:listitem="@layout/item_topics" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
