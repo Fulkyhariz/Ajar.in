@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ajarin">
         <activity
+            android:name=".DetailedOrder"
+            android:exported="false" />
+        <activity
+            android:name=".BookingScreen"
+            android:exported="false" />
+        <activity
             android:name=".TutorProfile"
             android:exported="false" />
         <activity
