@@ -55,6 +55,34 @@ class Profile : Fragment() {
         return myView
     }
 
+    override fun onViewCreated(myView: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(myView, savedInstanceState)
+        val privacyPolicybtn = myView.findViewById<TextView>(R.id.privacyPolicy)
+        val termsofServicebtn = myView.findViewById<TextView>(R.id.termConditions)
+        val logOutbtn = myView.findViewById<ImageButton>(R.id.logoutbutton)
+        logOutbtn.setOnClickListener{
+            auth.signOut()
+            requireActivity().run {
+                val intent = Intent(this, Login::class.java)
+                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                startActivity(intent)
+            }
+        }
+
+        privacyPolicybtn.setOnClickListener{
+            requireActivity().run{
+                startActivity(Intent(this, PrivacyPolicy::class.java))
+            }
+        }
+
+        termsofServicebtn.setOnClickListener{
+            requireActivity().run{
+                startActivity(Intent(getActivity(), TermsCondition::class.java))
+            }
+        }
+            // EditText etFoo = (EditText) view.findViewById(R.id.etFoo);
+    }
+
     private fun loadProfile() {
 
         mAuth = FirebaseAuth.getInstance()

@@ -59,34 +59,34 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/law_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="260dp"
-        android:src="@drawable/ic_law"
+        android:background="@drawable/ic_law"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/business_button"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/business_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="260dp"
-        android:src="@drawable/ic_business"
+        android:background="@drawable/ic_business"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/it_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="148dp"
-        android:src="@drawable/ic_it"
+        android:background="@drawable/ic_it"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
@@ -108,34 +108,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/it_button" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/medical_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="260dp"
-        android:src="@drawable/ic_medical"
+        android:background="@drawable/ic_medical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/business_button"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/humanities_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="148dp"
-        android:src="@drawable/ic_humanities"
+        android:background="@drawable/ic_humanities"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/it_button"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/engineer_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="148dp"
-        android:src="@drawable/ic_engineer"
+        android:background="@drawable/ic_engineer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/it_button"
         app:layout_constraintHorizontal_bias="0.508"
