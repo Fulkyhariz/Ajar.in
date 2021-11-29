@@ -24,13 +24,7 @@
             android:name=".TutorList"
             android:exported="false" />
         <activity
-            android:name=".TutoList"
-            android:exported="false" />
-        <activity
             android:name=".Topics"
-            android:exported="false" />
-        <activity
-            android:name=".topics"
             android:exported="false" />
         <activity
             android:name=".OrderDetail"

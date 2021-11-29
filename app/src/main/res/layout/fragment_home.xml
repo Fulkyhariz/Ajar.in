@@ -162,14 +162,14 @@
         android:id="@+id/law"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/lato_bold"
         android:gravity="center"
         android:text="@string/law"
         android:textColor="@color/biru2"
         android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/law_button"
+        app:layout_constraintStart_toStartOf="@+id/law_button"
         app:layout_constraintTop_toBottomOf="@+id/law_button" />
 
     <TextView
@@ -191,27 +191,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="59dp"
         android:fontFamily="@font/lato_bold"
         android:gravity="center"
         android:text="@string/medical"
         android:textColor="@color/biru2"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/medical_button"
+        app:layout_constraintStart_toStartOf="@+id/medical_button"
         app:layout_constraintTop_toBottomOf="@+id/medical_button" />
 
     <TextView
         android:id="@+id/Eningeering"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/lato_bold"
         android:gravity="center"
         android:text="@string/eng"
         android:textColor="@color/biru2"
         android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/engineer_button"
+        app:layout_constraintStart_toStartOf="@+id/engineer_button"
         app:layout_constraintTop_toBottomOf="@+id/engineer_button" />
 
     <TextView
@@ -219,13 +219,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="46dp"
         android:fontFamily="@font/lato_bold"
         android:gravity="center"
         android:text="@string/humanities"
         android:textColor="@color/biru2"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/humanities_button"
+        app:layout_constraintStart_toStartOf="@+id/humanities_button"
         app:layout_constraintTop_toBottomOf="@+id/humanities_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
