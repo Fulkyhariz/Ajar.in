@@ -35,8 +35,7 @@ class Home : Fragment() {
 
         law_button.setOnClickListener{
             requireActivity().run{
-                startActivity(Intent(activity, Topics::class.java)
-                    .putExtra(TOPICS_NAME, dataHome("Law","","")))
+                startActivity(Intent(this, com.ajarin.android.Topics::class.java))
             }
         }
     }

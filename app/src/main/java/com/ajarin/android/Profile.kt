@@ -24,34 +24,8 @@ class Profile : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val myView: View = inflater.inflate(R.layout.fragment_profile, container, false)
-        /*
-        val privacyPolicybtn = myView.findViewById<TextView>(R.id.privacyPolicy)
-        val termsofServicebtn = myView.findViewById<TextView>(R.id.termConditions)
-        val logOutbtn = myView.findViewById<Button>(R.id.logoutbutton)*/
-
         auth = FirebaseAuth.getInstance()
         loadProfile()
-        /*
-        logOutbtn.setOnClickListener{
-            auth.signOut()
-            requireActivity().run {
-                val intent = Intent(this, Login::class.java)
-                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-                startActivity(intent)
-            }
-        }
-
-        privacyPolicybtn.setOnClickListener{
-            requireActivity().run{
-                startActivity(Intent(this, PrivacyPolicy::class.java))
-            }
-        }
-
-        termsofServicebtn.setOnClickListener{
-            requireActivity().run{
-                startActivity(Intent(getActivity(), TermsCondition::class.java))
-            }
-        }*/
         return myView
     }
 
@@ -77,7 +51,7 @@ class Profile : Fragment() {
 
         termsofServicebtn.setOnClickListener{
             requireActivity().run{
-                startActivity(Intent(getActivity(), TermsCondition::class.java))
+                startActivity(Intent(this, TermsCondition::class.java))
             }
         }
             // EditText etFoo = (EditText) view.findViewById(R.id.etFoo);
