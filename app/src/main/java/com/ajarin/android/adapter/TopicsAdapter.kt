@@ -9,15 +9,6 @@ import com.ajarin.android.R
 import com.ajarin.android.`object`.TopicsObject
 
 class TopicsAdapter(private val subjectList : ArrayList<TopicsObject>) : RecyclerView.Adapter<TopicsAdapter.MyViewHolder>(){
-    private lateinit var onItemClickCallback: OnItemClickCallback
-
-    fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
-        this.onItemClickCallback = onItemClickCallback
-    }
-    interface OnItemClickCallback {
-        fun onItemClicked(data: TopicsObject)
-
-    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_topics, parent, false)
@@ -37,7 +28,15 @@ class TopicsAdapter(private val subjectList : ArrayList<TopicsObject>) : Recycle
     }
 
     inner class MyViewHolder(itemview : View) : RecyclerView.ViewHolder(itemview){
-        val subjectName : TextView = itemview.findViewById(R.id.subjectName)
-        val subjectDesc : TextView = itemview.findViewById(R.id.subjectDesc)
+        val subjectName : TextView
+        val subjectDesc : TextView
+        init{
+            subjectName = itemview.findViewById(R.id.subjectName)
+            subjectDesc = itemview.findViewById(R.id.subjectDesc)
+            itemview.setOnClickListener{
+                val position: Int = adapterPosition
+                println(position)
+            }
+        }
     }
 }

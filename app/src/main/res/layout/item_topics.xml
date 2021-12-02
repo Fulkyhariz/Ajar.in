@@ -18,7 +18,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="170dp">
+        android:layout_height="170dp"
+        android:background="@color/white">
 
         <ImageView
             android:id="@+id/titleTopics"
@@ -62,6 +63,7 @@
             android:gravity="center"
             android:text="@string/subj_desc"
             android:textColor="@color/black"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:background="@color/white"/>
     </RelativeLayout>
 </com.google.android.material.card.MaterialCardView>

@@ -54,7 +54,6 @@ class Profile : Fragment() {
                 startActivity(Intent(this, TermsCondition::class.java))
             }
         }
-            // EditText etFoo = (EditText) view.findViewById(R.id.etFoo);
     }
 
     private fun loadProfile() {
