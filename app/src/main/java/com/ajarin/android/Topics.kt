@@ -34,17 +34,17 @@ class Topics : AppCompatActivity() {
     }
 
     private fun readSubject(list: ArrayList<TopicsObject>, topicName : String) : ArrayList<TopicsObject>{
-        databaseReference?.child("topic")?.child(topicName)
+        databaseReference?.child("topic")?.child(topicName).childre
             ?.addListenerForSingleValueEvent(object: ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     var topicList : TopicsObject ?= null
                     for (subject in snapshot.children) {
                         var subjectName : String = subject.child("Name").value.toString()
                         var desc : String = subject.child("Description").value.toString()
-                        topicList = TopicsObject(subjectName, desc)
+                        topicList = TopicsObject(topicName, subjectName, desc)
                         list.add(topicList)
                     }
-                    adapter = TopicsAdapter(list)
+                    adapter = TopicsAdapter(this@Topics,list)
                     rv_subjectList.adapter = adapter
                 }
 
