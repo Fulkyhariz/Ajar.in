@@ -33,6 +33,10 @@ class TutorListAdapter(private val parent : Context, private val tutorList : Arr
         init{
             tutorName = itemview.findViewById(R.id.list_tutorName)
             tutorRating = itemview.findViewById(R.id.list_rate)
+            itemView.setOnClickListener{
+                val position: Int = adapterPosition
+                println(position)
+            }
         }
 
     }

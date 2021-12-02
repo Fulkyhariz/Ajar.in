@@ -34,7 +34,7 @@ class Topics : AppCompatActivity() {
     }
 
     private fun readSubject(list: ArrayList<TopicsObject>, topicName : String) : ArrayList<TopicsObject>{
-        databaseReference?.child("topic")?.child(topicName).childre
+        databaseReference?.child("topic")?.child(topicName)
             ?.addListenerForSingleValueEvent(object: ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     var topicList : TopicsObject ?= null
