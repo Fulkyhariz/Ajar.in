@@ -11,4 +11,9 @@ class TutorObject {
     var notelp: String = ""
     var whatsapp: String = ""
     var rating : String = ""
+
+    constructor(nama : String, rating : String){
+       this.nama = nama
+        this.rating = rating
+    }
 }

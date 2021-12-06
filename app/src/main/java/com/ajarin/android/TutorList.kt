@@ -39,12 +39,11 @@ class TutorList : AppCompatActivity() {
         databaseReference?.child("topic")?.child(topicName)?.child(subjectName)?.child("tutorList")
             ?.addListenerForSingleValueEvent(object: ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
-                    var tutors : TutorObject  = TutorObject()
+                    var tutors : TutorObject ?= null
                     for (tutor in snapshot.children) {
                         var tutorName : String = tutor.child("Name").value.toString()
                         var tutorRating : String = tutor.child("Rating").value.toString()
-                        tutors.nama = tutorName
-                        tutors.rating = tutorRating
+                        tutors = TutorObject(tutorName, tutorRating)
                         list.add(tutors)
                     }
                     adapter = TutorListAdapter(this@TutorList,list)
