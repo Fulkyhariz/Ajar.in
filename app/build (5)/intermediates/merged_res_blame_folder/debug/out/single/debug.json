@@ -1,0 +1,422 @@
+[
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_history_black.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_history_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_star_white.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_star_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_terms.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_terms.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_law.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_law.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home_black.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_home_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_loginbutton.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_loginbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_contact.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_feedback.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_history.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\fragment_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_loginbutton.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_loginbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_namelogo.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\namelogo.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_corner.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\round_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_terms_condition.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\activity_terms_condition.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_item_history.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\item_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\font_lato_bold.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\font\\lato_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_password.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_phone.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_logoutbutton.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_logoutbutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_item_selector.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\item_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_booking_screen.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\activity_booking_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_privacy.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_privacy.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_menu_book_24.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_baseline_menu_book_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_history.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_report.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_registerbutton.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_registerbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_terms.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_terms.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_registerbutton.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_registerbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ellipse1.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ellipse1.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_medical.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_medical.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_appointment.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\button_appointment.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_registerbutton.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_registerbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_privacy_policy.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\activity_privacy_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_test_profile.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\test_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_person_blue.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_person_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_book_white.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_book_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_tutor_list.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\activity_tutor_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_background.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\background.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_order_detail.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\activity_order_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_terms.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_terms.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_map_button.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\map_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_loginbutton.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_loginbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_hd_white.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\hd_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_tutor_profile.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\activity_tutor_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_loginbutton.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_loginbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_registerbutton.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_registerbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_engineer.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_engineer.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splashscreen.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\activity_splashscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_topics.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\activity_topics.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_terms.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_terms.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_it.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_it.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_total_history.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\total_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\navigation_navbar_bawah.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\navigation\\navbar_bawah.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_loginbutton.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_loginbutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_menu.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\menu\\bottom_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\font_lato_thin.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\font\\lato_thin.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_vector_home.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\vector_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ellipse2.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ellipse2.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_loginbutton.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_loginbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_detailed_order.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\activity_detailed_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_item_topics.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\item_topics.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_terms.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_terms.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_loginbutton.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_loginbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_registerbutton.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_registerbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_terms.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_terms.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\font_lato.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\font\\lato.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_star_blue.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_star_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_topic_title.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\topic_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_business.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_business.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_person_black.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_person_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_box_orderdetail.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\box_orderdetail.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\layout_item_tutorlist.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\layout\\item_tutorlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_registerbutton.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_registerbutton.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_terms.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_terms.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_humanities.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_humanities.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_registerbutton.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_registerbutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\fulky\\Documents\\Akademik\\5th Term\\RPL\\proyek\\Source Code\\Ajarin\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    }
+]

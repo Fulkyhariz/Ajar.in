@@ -1,0 +1,2 @@
+com/ajarin/android/BuildConfig.java
+ com.ajarin.android.BuildConfig
