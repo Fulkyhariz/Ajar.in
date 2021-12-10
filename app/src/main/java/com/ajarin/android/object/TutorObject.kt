@@ -12,8 +12,17 @@ class TutorObject {
     var whatsapp: String = ""
     var rating : String = ""
 
-    constructor(nama : String, rating : String){
-       this.nama = nama
+    constructor(nama : String, rating : String, tutorSubject : String){
+        this.nama = nama
         this.rating = rating
+        this.subject = tutorSubject
+    }
+
+    constructor(nama : String, rating : String, subject : String, tarif : String, emailTutor : String, ){
+        this.nama = nama
+        this.rating = rating
+        this.subject = subject
+        this.tarif = tarif
+        this.emailtutor = emailTutor
     }
 }

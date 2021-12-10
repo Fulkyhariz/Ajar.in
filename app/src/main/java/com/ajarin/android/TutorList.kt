@@ -43,8 +43,10 @@ class TutorList : AppCompatActivity() {
                     for (tutor in snapshot.children) {
                         var tutorName : String = tutor.child("Name").value.toString()
                         var tutorRating : String = tutor.child("Rating").value.toString()
-                        tutors = TutorObject(tutorName, tutorRating)
+                        var id : String = tutor.child("Id").value.toString()
+                        tutors = TutorObject(tutorName, tutorRating, subjectName)
                         list.add(tutors)
+                        readOther(tutors, tutor.child("Id").value.toString());
                     }
                     adapter = TutorListAdapter(this@TutorList,list)
                     rv_tutorList.adapter = adapter
@@ -56,5 +58,30 @@ class TutorList : AppCompatActivity() {
 
             })
 
+    }
+
+    private fun readOther(tutor: TutorObject, id : String){
+        databaseReference?.child("profile")
+            ?.addListenerForSingleValueEvent(object: ValueEventListener {
+                override fun onDataChange(snapshot: DataSnapshot) {
+                        for (profile in snapshot.children) {
+                            if (profile.key == id){
+                                println(id)
+                                profile.child("email").value.toString()
+                                println(profile.child("email").value.toString())
+                                tutor.emailtutor = profile.child("email").value.toString()
+                                tutor.tarif = profile.child("price").value.toString()
+                                tutor.notelp = profile.child("phone").value.toString()
+                                println(tutor.emailtutor)
+                                println("line ini jalan")
+                            }
+                    }
+                }
+
+                override fun onCancelled(error: DatabaseError) {
+
+                }
+
+            })
     }
 }

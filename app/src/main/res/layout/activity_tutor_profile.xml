@@ -178,7 +178,7 @@
                 android:textColor="@color/whiteBG"
                 android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+                app:layout_constraintTop_toBottomOf="@+id/contact_button" />
 
             <ImageView
                 android:id="@+id/imageView12"
@@ -190,8 +190,8 @@
                 app:layout_constraintTop_toBottomOf="@+id/lineBlack"
                 app:srcCompat="@drawable/ic_star_white" />
 
-            <ImageView
-                android:id="@+id/imageView13"
+            <ImageButton
+                android:id="@+id/contact_button"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginTop="16dp"
