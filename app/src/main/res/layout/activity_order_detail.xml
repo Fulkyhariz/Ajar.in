@@ -193,7 +193,7 @@
     </RelativeLayout>
 
     <ImageButton
-        android:id="@+id/feedbackButton"
+        android:id="@+id/tutorButton"
         android:layout_width="311dp"
         android:layout_height="40dp"
         android:layout_below="@id/orderDetailText"
@@ -201,22 +201,9 @@
         android:layout_marginTop="72dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:background="@drawable/ic_feedback"
+        android:background="@drawable/ic_tutor_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/orderDetailText" />
 
-    <ImageButton
-        android:id="@+id/reportButton"
-        android:layout_width="311dp"
-        android:layout_height="40dp"
-        android:layout_below="@id/feedbackButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/ic_report"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/feedbackButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>

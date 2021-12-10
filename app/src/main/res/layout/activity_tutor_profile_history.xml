@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/biru"
-    tools:context=".Topics">
+    tools:context=".TutorProfileHistory">
 
     <ImageView
         android:id="@+id/imageView6"
@@ -264,15 +264,31 @@
         app:layout_constraintTop_toBottomOf="@+id/prof_tutorEmail"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="370dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="40dp"
+    <ImageButton
+        android:id="@+id/feedbackButton"
+        android:layout_width="311dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_feedback"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView"
-        app:srcCompat="@drawable/map_button" />
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <ImageButton
+        android:id="@+id/reportButton"
+        android:layout_width="311dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/feedbackButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_report"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedbackButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
