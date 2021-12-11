@@ -17,14 +17,14 @@ import android.content.Intent
 import android.widget.Toast
 
 import android.app.Activity
-
-
-
-
-
-
+import com.ajarin.android.adapter.TutorListAdapter
 
 class TutorProfile : AppCompatActivity() {
+
+    companion object {
+        const val TUTOR = ""
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tutor_profile)
@@ -35,8 +35,9 @@ class TutorProfile : AppCompatActivity() {
         val subjectView : TextView = findViewById(R.id.prof_subjectName)
         val tarifView : TextView = findViewById(R.id.txt_session)
         val contactButton : ImageButton = findViewById(R.id.contact_button)
+        val appointmentButton : ImageButton = findViewById(R.id.appointment_button)
 
-        val ss = intent.getSerializableExtra(TopicsAdapter.TOPICS) as DataTutor
+        val ss = intent.getSerializableExtra(TutorListAdapter.TUTOR) as DataTutor
         var tutorName = ss.nama
         var emailTutor = ss.emailtutor
         var pendidikan = ss.pendidikan
@@ -61,6 +62,9 @@ class TutorProfile : AppCompatActivity() {
         contactButton.setOnClickListener{
             contactClicked(tutorName, emailTutor, phoneNumber)
         }
+        appointmentButton.setOnClickListener{
+            appointmentClicked(ss)
+        }
     }
 
     private fun contactClicked(tutorName : String, emailTutor : String, phoneNumber : String){
@@ -71,6 +75,11 @@ class TutorProfile : AppCompatActivity() {
             .putExtra(ContactsContract.Intents.Insert.EMAIL, emailTutor)
             .putExtra(ContactsContract.Intents.Insert.PHONE, phoneNumber)
         startActivityForResult(contactIntent, 1)
+    }
+
+    private fun appointmentClicked(ss : DataTutor){
+        val intent = Intent(this@TutorProfile, BookingScreen::class.java).putExtra(TUTOR, ss)
+        startActivity(intent)
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, intent: Intent?) {
