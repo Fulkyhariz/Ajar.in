@@ -35,9 +35,6 @@ class OrderDetail : AppCompatActivity() {
 
         val tutorBtn : ImageButton = findViewById(R.id.tutorButton)
         tutorBtn.setOnClickListener{
-            println(ss.subjectName)
-            println(ss.orderId)
-            println(ss.orderDate)
             val intent = Intent(this, TutorProfileHistory::class.java).putExtra(TUTOR, ss)
             startActivity(intent)
         }

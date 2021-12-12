@@ -7,10 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ajarin.android.`object`.HistoryObject
-import com.ajarin.android.`object`.TopicsObject
-import com.ajarin.android.`object`.TutorObject
 import com.ajarin.android.adapter.HistoryAdapter
-import com.ajarin.android.adapter.TopicsAdapter
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.fragment_history.*
@@ -21,7 +18,6 @@ class History : Fragment() {
     private var database: FirebaseDatabase? = FirebaseDatabase.getInstance()
     private var databaseReference :  DatabaseReference? = database?.reference
     lateinit var auth: FirebaseAuth
-    private var historyList : ArrayList<HistoryObject> = arrayListOf()
     private lateinit var adapter: HistoryAdapter
 
     override fun onCreateView(
@@ -34,11 +30,12 @@ class History : Fragment() {
 
     override fun onViewCreated(myView: View, savedInstanceState: Bundle?){
         super.onViewCreated(myView, savedInstanceState)
-        readHistory(myView, historyList)
+        readHistory(myView)
         rv_history.layoutManager = LinearLayoutManager(myView.context)
     }
 
-    private fun readHistory(myView: View, list: ArrayList<HistoryObject>) {
+    private fun readHistory(myView: View) {
+        var list: ArrayList<HistoryObject> = arrayListOf()
         auth = FirebaseAuth.getInstance()
         val currentuser = auth.currentUser
         databaseReference?.child("history")?.addListenerForSingleValueEvent(object:

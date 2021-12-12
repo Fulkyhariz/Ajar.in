@@ -1,21 +1,19 @@
 package com.ajarin.android.adapter
 
-import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.ajarin.android.OrderDetail
 import com.ajarin.android.R
-import com.ajarin.android.TutorProfile
-import com.ajarin.android.TutorProfileHistory
 import com.ajarin.android.`object`.DataHistory
 import com.ajarin.android.`object`.HistoryObject
 
-class HistoryAdapter(private val parent : Context, private val historyList : ArrayList<HistoryObject>) : RecyclerView.Adapter<HistoryAdapter.MyViewHolder>(){
+class HistoryAdapter(private val parent: Context, private val historyList: ArrayList<HistoryObject>) : RecyclerView.Adapter<HistoryAdapter.MyViewHolder>(){
 
     companion object {
         const val HISTORY = ""
@@ -58,12 +56,12 @@ class HistoryAdapter(private val parent : Context, private val historyList : Arr
             totalPrice = itemview.findViewById(R.id.tv_priceHistory)
             itemview.setOnClickListener{
                 val position: Int = adapterPosition
-                val intent = Intent( parent, OrderDetail::class.java).putExtra(HISTORY, DataHistory(
-                    historyList[position].orderId.toString(), historyList[position].orderDate.toString(),
-                    historyList[position].orderStatus.toString(), historyList[position].subjectName.toString(),
-                    historyList[position].tutorName.toString(), historyList[position].tutorId.toString(),
-                    historyList[position].totalPrice.toString()))
-                parent.startActivity(intent)
+                    val intent = Intent( parent, OrderDetail::class.java).putExtra(HISTORY, DataHistory(
+                        historyList[position].orderId.toString(), historyList[position].orderDate.toString(),
+                        historyList[position].orderStatus.toString(), historyList[position].subjectName.toString(),
+                        historyList[position].tutorName.toString(), historyList[position].tutorId.toString(),
+                        historyList[position].totalPrice.toString()))
+                    parent.startActivity(intent)
             }
         }
     }
