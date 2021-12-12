@@ -62,6 +62,8 @@ class BookingScreen : AppCompatActivity() {
         val orderId : String = currentuser?.uid + ss.subject[0] + ss.nama
 
         val currentUSerDb = databaseReference?.child(orderId)
+        currentUSerDb?.child("userId")?.setValue(currentuser?.uid)
+        currentUSerDb?.child("tutorId")?.setValue(ss.id)
         currentUSerDb?.child("nama")?.setValue(ss.nama)
         currentUSerDb?.child("email")?.setValue(ss.emailtutor)
         currentUSerDb?.child("notelp")?.setValue(ss.notelp)

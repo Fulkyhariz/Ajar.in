@@ -4,6 +4,7 @@ import java.io.Serializable
 
 class DataTutor
     (
+    val id: String,
     val nama: String,
     val description: String,
     val emailtutor: String,

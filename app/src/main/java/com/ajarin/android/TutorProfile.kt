@@ -45,6 +45,7 @@ class TutorProfile : AppCompatActivity() {
         var subjectName = ss.subject
         var tarif = ss.tarif
         var phoneNumber = ss.notelp
+        var tutorId = ss.id
 
         println(tutorName)
         println(emailTutor)
@@ -52,6 +53,8 @@ class TutorProfile : AppCompatActivity() {
         println(rating)
         println(subjectName)
         println(tarif)
+        println(tutorId)
+
 
         nameView.text = tutorName
         emailView.text = emailTutor

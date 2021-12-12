@@ -23,7 +23,7 @@ class DetailedOrder : AppCompatActivity() {
         var subText = ss.subject
         var tanggal = ss.notelp
         var biaya = ss.tarif
-        var statusOrder = "LUNAS"
+        var statusOrder = "SUCCESS"
 
         subject.text = subText
         tutorName.text = nama

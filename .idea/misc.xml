@@ -11,29 +11,23 @@
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/drawable/ic_phone.xml" value="0.14427083333333332" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/drawable/ic_registerbutton.xml" value="0.14427083333333332" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/drawable/logo2.xml" value="0.1125" />
+        <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_booking_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_detailed_order.xml" value="0.33" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_order_detail.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_splashscreen.xml" value="0.22" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_topics.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_tutor_list.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/activity_tutor_profile_history.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/fragment_history.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/fragment_home.xml" value="0.20102564102564102" />
+        <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/item_history.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/item_topics.xml" value="0.20416666666666666" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/layout/item_tutorlist.xml" value="0.15" />
         <entry key="..\:/AndroidStudioProjects/Ajar.in/app/src/main/res/menu/listregister.xml" value="0.128125" />
-        <entry key="..\:/Users/fulky/Documents/Akademik/5th Term/RPL/proyek/Source Code/Ajarin/app/src/main/res/layout/activity_booking_screen.xml" value="0.264" />
-        <entry key="..\:/Users/fulky/Documents/Akademik/5th Term/RPL/proyek/Source Code/Ajarin/app/src/main/res/layout/activity_detailed_order.xml" value="0.536" />
         <entry key="..\:/Users/fulky/Documents/Akademik/5th Term/RPL/proyek/Source Code/Ajarin/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
-<<<<<<< HEAD
-        <entry key="..\:/Users/fulky/Documents/Akademik/5th Term/RPL/proyek/Source Code/Ajarin/app/src/main/res/layout/activity_order_detail.xml" value="0.19322916666666667" />
-        <entry key="..\:/Users/fulky/Documents/Akademik/5th Term/RPL/proyek/Source Code/Ajarin/app/src/main/res/layout/activity_splashscreen.xml" value="0.10260416666666666" />
-        <entry key="..\:/Users/fulky/Documents/Akademik/5th Term/RPL/proyek/Source Code/Ajarin/app/src/main/res/layout/activity_topics.xml" value="0.10260416666666666" />
-        <entry key="..\:/Users/fulky/Documents/Akademik/5th Term/RPL/proyek/Source Code/Ajarin/app/src/main/res/layout/activity_tutor_list.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/fulky/Documents/Akademik/5th Term/RPL/proyek/Source Code/Ajarin/app/src/main/res/layout/activity_tutor_profile.xml" value="0.264" />
-        <entry key="..\:/Users/fulky/Documents/Akademik/5th Term/RPL/proyek/Source Code/Ajarin/app/src/main/res/layout/fragment_profile.xml" value="0.10260416666666666" />
-        <entry key="..\:/Users/fulky/Documents/Akademik/5th Term/RPL/proyek/Source Code/Ajarin/app/src/main/res/layout/item_tutorlist.xml" value="0.25416666666666665" />
-=======
->>>>>>> origin/master
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/drawable/background.xml" value="0.1734375" />
         <entry key="..\:/Users/lenovo/Desktop/Kelas_RPL/Ajar.in/app/src/main/res/drawable/button_appointment.xml" value="0.1734375" />

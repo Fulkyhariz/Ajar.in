@@ -45,7 +45,7 @@ class TutorListAdapter(private val parent : Context, private val tutorList : Arr
             itemView.setOnClickListener{
                 val position: Int = adapterPosition
                 val intent = Intent( parent, TutorProfile::class.java).putExtra(TUTOR, DataTutor(
-                    tutorList[position].nama, tutorList[position].description, tutorList[position].emailtutor,
+                    tutorList[position].id, tutorList[position].nama, tutorList[position].description, tutorList[position].emailtutor,
                     tutorList[position].pendidikan, tutorList[position].subject, tutorList[position].tarif, tutorList[position].linkedin,
                     tutorList[position].notelp,tutorList[position].whatsapp, tutorList[position].rating))
                 parent.startActivity(intent)

@@ -16,8 +16,6 @@ import com.ajarin.android.`object`.TopicsObject
 
 class TopicsAdapter(private val parent : Context, private val subjectList : ArrayList<TopicsObject>) : RecyclerView.Adapter<TopicsAdapter.MyViewHolder>(){
 
-    var posisi: Int? = null;
-
     companion object {
         const val TOPICS = ""
     }
@@ -47,7 +45,6 @@ class TopicsAdapter(private val parent : Context, private val subjectList : Arra
             subjectDesc = itemview.findViewById(R.id.subjectDesc)
             itemview.setOnClickListener{
                 val position: Int = adapterPosition
-                posisi = adapterPosition
                 val intent = Intent( parent, TutorList::class.java).putExtra(TOPICS, DataHome(subjectList[position].topicName.toString(), subjectList[position].subjectName.toString(),""))
                 parent.startActivity(intent)
             }

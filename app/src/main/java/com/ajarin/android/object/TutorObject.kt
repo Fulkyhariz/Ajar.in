@@ -1,6 +1,7 @@
 package com.ajarin.android.`object`
 
 class TutorObject {
+    var id: String = ""
     var nama: String = ""
     var description: String = ""
     var emailtutor: String = ""
@@ -12,7 +13,8 @@ class TutorObject {
     var whatsapp: String = ""
     var rating : String = ""
 
-    constructor(nama : String, rating : String, tutorSubject : String){
+    constructor(id : String, nama : String, rating : String, tutorSubject : String){
+        this.id = id
         this.nama = nama
         this.rating = rating
         this.subject = tutorSubject

@@ -7,10 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
-import com.ajarin.android.Topics
 import com.ajarin.android.`object`.DataHome
-import com.ajarin.android.dataHome
-import kotlinx.android.synthetic.main.fragment_home.*
 
 class Home : Fragment() {
     companion object {
@@ -24,11 +21,6 @@ class Home : Fragment() {
         // Inflate the layout for this fragment
         val myView: View = inflater.inflate(R.layout.fragment_home, container, false)
 
-        /*myView.law_button.setOnClickListener {
-            val intent= Intent(activity,Topics::class.java)
-                .putExtra(TOPICS_NAME,dataHome("Law", "", ""))
-            startActivity(intent)
-        }*/
 
         return myView
     }
