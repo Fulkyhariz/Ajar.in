@@ -31,6 +31,9 @@ class TutorProfileHistory : AppCompatActivity() {
         var price : TextView = findViewById(R.id.prof_price)
         var rating : TextView = findViewById(R.id.prof_rate)
         var contactBtn : ImageButton = findViewById(R.id.contact_button2)
+        var feedbackbtn : ImageButton = findViewById(R.id.feedbackButton)
+        var reportbtn : ImageButton = findViewById(R.id.reportButton)
+
         val ss = intent.getSerializableExtra(OrderDetail.TUTOR) as DataHistory
         val tutorId : String = ss.tutorId
         subjectName.text = ss.subjectName
@@ -50,6 +53,24 @@ class TutorProfileHistory : AppCompatActivity() {
                             price.text = tutPrice
                             phoneNumber = profile.child("phone").value.toString()
                             contactBtn.setOnClickListener{
+                                val contactIntent = Intent(ContactsContract.Intents.Insert.ACTION)
+                                contactIntent.type = ContactsContract.RawContacts.CONTENT_TYPE
+                                contactIntent
+                                    .putExtra(ContactsContract.Intents.Insert.NAME, tutName)
+                                    .putExtra(ContactsContract.Intents.Insert.EMAIL, tutEmail)
+                                    .putExtra(ContactsContract.Intents.Insert.PHONE, phoneNumber)
+                                startActivityForResult(contactIntent, 1)
+                            }
+                            feedbackbtn.setOnClickListener{
+                                val contactIntent = Intent(ContactsContract.Intents.Insert.ACTION)
+                                contactIntent.type = ContactsContract.RawContacts.CONTENT_TYPE
+                                contactIntent
+                                    .putExtra(ContactsContract.Intents.Insert.NAME, tutName)
+                                    .putExtra(ContactsContract.Intents.Insert.EMAIL, tutEmail)
+                                    .putExtra(ContactsContract.Intents.Insert.PHONE, phoneNumber)
+                                startActivityForResult(contactIntent, 1)
+                            }
+                            reportbtn.setOnClickListener{
                                 val contactIntent = Intent(ContactsContract.Intents.Insert.ACTION)
                                 contactIntent.type = ContactsContract.RawContacts.CONTENT_TYPE
                                 contactIntent
