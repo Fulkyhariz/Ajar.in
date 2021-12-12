@@ -9,15 +9,17 @@ class HistoryObject {
     var subjectName: String ?=null
     var tutorName: String ?=null
     var tutorId: String ?=null
+    var tutorRating: String ?=null
     var totalPrice: String ?=null
 
-    constructor(id : String, date : String, status : String, subject: String, tutor : String, tutId : String, price :String){
+    constructor(id : String, date : String, status : String, subject: String, tutor : String, tutId : String, tutRating : String, price :String){
         orderId = id
         orderStatus = status
         orderDate = date
         subjectName = subject
         tutorName = tutor
         tutorId = tutId
+        tutorRating = tutRating
         totalPrice = price
     }
 }

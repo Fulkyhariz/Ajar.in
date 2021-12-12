@@ -60,7 +60,7 @@ class HistoryAdapter(private val parent: Context, private val historyList: Array
                         historyList[position].orderId.toString(), historyList[position].orderDate.toString(),
                         historyList[position].orderStatus.toString(), historyList[position].subjectName.toString(),
                         historyList[position].tutorName.toString(), historyList[position].tutorId.toString(),
-                        historyList[position].totalPrice.toString()))
+                        historyList[position].tutorRating.toString(), historyList[position].totalPrice.toString()))
                     parent.startActivity(intent)
             }
         }

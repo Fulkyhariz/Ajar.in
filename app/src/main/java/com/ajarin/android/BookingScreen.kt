@@ -11,6 +11,10 @@ import com.ajarin.android.adapter.TopicsAdapter
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import java.text.SimpleDateFormat
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+import java.util.*
 
 class BookingScreen : AppCompatActivity() {
 
@@ -37,15 +41,18 @@ class BookingScreen : AppCompatActivity() {
 
         var nama = ss.nama
         var subText = ss.subject
-        var tanggal = ss.notelp
         var biaya = ss.tarif
         var biayaTotal = ss.tarif
+
+        val formatter = SimpleDateFormat("dd/MM/yyyy")
+        val tanggal = formatter.format(Calendar.getInstance().time)
 
         subject.text = subText
         tutorName.text = nama
         date.text = tanggal
         fee.text = biaya
         feeTotal.text = biayaTotal
+
 
         bookingButton.setOnClickListener{
             uploadHistory(ss)
@@ -59,11 +66,13 @@ class BookingScreen : AppCompatActivity() {
         databaseReference = database?.reference!!.child("history")
         auth = FirebaseAuth.getInstance()
         val currentuser = auth.currentUser
-        val orderId : String = currentuser?.uid + ss.subject[0] + ss.nama
-
-        val currentUSerDb = databaseReference?.child(orderId)
+        val orderId = (Math.random() * 9000).toInt() + 1000
+        val formatter = SimpleDateFormat("dd/MM/yyyy")
+        val tanggal = formatter.format(Calendar.getInstance().time)
+        val currentUSerDb = databaseReference?.child(orderId.toString())
         currentUSerDb?.child("userId")?.setValue(currentuser?.uid)
         currentUSerDb?.child("tutorId")?.setValue(ss.id)
+        currentUSerDb?.child("tanggal")?.setValue(tanggal)
         currentUSerDb?.child("nama")?.setValue(ss.nama)
         currentUSerDb?.child("email")?.setValue(ss.emailtutor)
         currentUSerDb?.child("notelp")?.setValue(ss.notelp)

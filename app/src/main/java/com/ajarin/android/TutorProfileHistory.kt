@@ -35,6 +35,7 @@ class TutorProfileHistory : AppCompatActivity() {
         val tutorId : String = ss.tutorId
         subjectName.text = ss.subjectName
         tutorDesc.text = "Becoming Tutor Since 2021"
+        rating.text = ss.tutorRating
 
         databaseReference?.child("profile")
             ?.addListenerForSingleValueEvent(object: ValueEventListener {

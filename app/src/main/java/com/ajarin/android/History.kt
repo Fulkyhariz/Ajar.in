@@ -45,13 +45,14 @@ class History : Fragment() {
                 for (history in snapshot.children) {
                     if(history.child("userId").value.toString() == currentuser?.uid){
                         var orderId : String = history.key.toString()
-                        var orderDate : String = "12 Desember 2021"
+                        var orderDate : String = history.child("tanggal").value.toString()
                         var orderStatus : String = "Success"
                         var subjectName : String = history.child("subject").value.toString()
                         var tutorName : String = history.child("nama").value.toString()
                         var tutorId : String = history.child("tutorId").value.toString()
+                        var tutorRating : String = history.child("rating").value.toString()
                         var totalPrice : String = history.child("tarif").value.toString()
-                        histories = HistoryObject(orderId, orderDate, orderStatus, subjectName, tutorName, tutorId, totalPrice)
+                        histories = HistoryObject(orderId, orderDate, orderStatus, subjectName, tutorName, tutorId, tutorRating, totalPrice)
                         list.add(histories)
                     }
                 }
